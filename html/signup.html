@@ -12,6 +12,8 @@
 
 <body>
     <header class="header">
+
+
         <a href="signup.html" class="logo">Canvas Visual</a>
         <nav class="navbar">
             <a href="index.html">Home</a>
@@ -22,84 +24,90 @@
         </nav>
     </header>
 
-    <div class="log-box">
-        <div class="form-box register">
-            <div class="logreg-title">
-                <h2>Sign Up</h2>
-                <p>Welome.<br> Please provide the following informations.</p>
+    <section id="home">
+        <div id="blur"></div>
+        <div id="cover"></div>
+        <div class="login">
+            <div class="log-box">
+                <div class="form-box register">
+                    <div class="logreg-title">
+                        <h2>Sign Up</h2>
+                        <p>Welome.<br> Please provide the following informations.</p>
+                    </div>
+
+                    <form action="#">
+                        <div class="input-box">
+                            <span class="icon"><i class='bx bxs-user'></i></span>
+                            <input type="text" required>
+                            <label>Full Name</label>
+                        </div>
+
+                        <!-- <div class="input-box">
+                                            <span class="icon"><i class='bx bxs-phone'></i></span>
+                                            <input type="phone" required>
+                                            <label>Phone number</label>
+                                        </div> -->
+
+                        <div class="input-box">
+                            <span class="icon"><i class='bx bxs-envelope'></i></span>
+                            <input type="email" required>
+                            <label>Email</label>
+                        </div>
+                    </form>
+
+                    <form action="#">
+                        <div class="input-box">
+                            <span class="icon">
+                                                    <i class='bx bxs-lock-alt'></i>
+                                                </span>
+                            <input type="password" required>
+                            <label>Password</label>
+                        </div>
+
+                        <div class="input-box">
+                            <span class="icon">
+                                                        <i class='bx bxs-lock-alt'></i>
+                                                    </span>
+                            <input type="password" required>
+                            <label>Confirm Password</label>
+                        </div>
+
+                        <div class="remember-forgot">
+                            <label><input type="checkbox">
+                                                   I agree to the Terms and Privacy Policy
+                                                </label>
+                        </div>
+
+                        <button type="submit" class="btn">Sign In</button>
+
+                        <div class="logreg-link">
+                            <p>Already have an account? <a href="login.html" class="register-link">
+                                                    Login</a></p>
+                        </div>
+                    </form>
+                </div>
+                <div class="media-options">
+                    <a href="#">
+                        <i class='bx bxl-google'></i>
+                        <span>Login with Google</span>
+                    </a>
+                    <!-- <a href="#">
+                                            <i class='bx bxl-facebook'></i>
+                                            <span>Login with Facebook</span>
+                                        </a> -->
+                    <a href="#">
+                        <i class='bx bxl-apple'></i>
+                        <span>Login with Apple</span>
+                    </a>
+                    <a href="#">
+                        <i class='bx bxl-github'></i>
+                        <span>Login with GitHub</span>
+                    </a>
+                </div>
             </div>
 
-            <form action="#">
-                <div class="input-box">
-                    <span class="icon"><i class='bx bxs-user'></i></span>
-                    <input type="text" required>
-                    <label>Full Name</label>
-                </div>
-
-                <!-- <div class="input-box">
-                    <span class="icon"><i class='bx bxs-phone'></i></span>
-                    <input type="phone" required>
-                    <label>Phone number</label>
-                </div> -->
-
-                <div class="input-box">
-                    <span class="icon"><i class='bx bxs-envelope'></i></span>
-                    <input type="email" required>
-                    <label>Email</label>
-                </div>
-            </form>
-
-            <form action="#">
-                <div class="input-box">
-                    <span class="icon">
-                            <i class='bx bxs-lock-alt'></i>
-                        </span>
-                    <input type="password" required>
-                    <label>Password</label>
-                </div>
-
-                <div class="input-box">
-                    <span class="icon">
-                                <i class='bx bxs-lock-alt'></i>
-                            </span>
-                    <input type="password" required>
-                    <label>Confirm Password</label>
-                </div>
-
-                <div class="remember-forgot">
-                    <label><input type="checkbox">
-                           I agree to the Terms and Privacy Policy
-                        </label>
-                </div>
-
-                <button type="submit" class="btn">Sign In</button>
-
-                <div class="logreg-link">
-                    <p>Already have an account? <a href="login.html" class="register-link">
-                            Login</a></p>
-                </div>
-            </form>
         </div>
-        <div class="media-options">
-            <a href="#">
-                <i class='bx bxl-google'></i>
-                <span>Login with Google</span>
-            </a>
-            <!-- <a href="#">
-                    <i class='bx bxl-facebook'></i>
-                    <span>Login with Facebook</span>
-                </a> -->
-            <a href="#">
-                <i class='bx bxl-apple'></i>
-                <span>Login with Apple</span>
-            </a>
-            <a href="#">
-                <i class='bx bxl-github'></i>
-                <span>Login with GitHub</span>
-            </a>
-        </div>
-    </div>
-
+    </section>
 
 </body>
 
